@@ -10,6 +10,9 @@ export class ProductDetailComponent {
     @Input()
     product: any;
 
+    @Input()
+    mode:number;
+
     @Output()
     onAddToCart: EventEmitter<any> = new EventEmitter<any>();
 
